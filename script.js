@@ -4,7 +4,7 @@ const promptsDataset = [
         id: 18,
         category: "long shiva god",
         text: "Transform this pic into a dark, cinematic fantasy scene. Keep the person exactly the same face, natural skin texture, expression, pose, and clothing. Behind the person, add a shadowy, smoke-like Lord Shiva figure. Shiva should appear divine, powerful, masculine, with broad shoulders and a calm, protective presence. His one hand is placed very softly and gently on the model's head, like he is giving a blessing. Atmosphere: Soft mystical lighting, cinematic color grading, sacred and devotional mood.",
-        image: "Images/shiva sahasra .jpeg"
+        image: "Images/High-End Studio Fashion Editorial.jfif"
     },
     {
         id: 17,
