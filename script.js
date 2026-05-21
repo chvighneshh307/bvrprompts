@@ -1,5 +1,11 @@
 // Sample Database of Prompts
 const promptsDataset = [
+     {
+        id: 22,
+        category: "lorg Ganesha god",
+        text: "A divine and emotional scene of Lord Ganesha blessing a young Indian girl with a gentle touch on her head. The girl has a serene expression, eyes closed in devotion, wearing traditional attire. Ganesha is adorned with an intricate golden crown and ornate jewelry, glowing with a warm, divine golden aura. The background features soft golden light, cosmic sparkles, and a mystical temple setting with realistic textures and cinematic lighting.",
+        image: "Images/Ganesha sahasra.jpeg"
+    },
     {
         id: 21,
         category: "lorg krishna god",
