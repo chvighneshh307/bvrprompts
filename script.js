@@ -180,11 +180,20 @@ function displayPrompts(prompts) {
 // Filter prompts by Search & Category combined
 function filterPrompts() {
     const query = searchInput.value.toLowerCase();
-    
+    const latestPromptIds = promptsDataset.slice(0, 5).map(prompt => prompt.id);
+
     const filtered = promptsDataset.filter(prompt => {
-        const matchesCategory = (activeCategory === 'all' || prompt.category === activeCategory);
         const matchesSearch = prompt.text.toLowerCase().includes(query);
-        return matchesCategory && matchesSearch;
+
+        if (activeCategory === 'all') {
+            return matchesSearch;
+        }
+
+        if (activeCategory === 'latest-prompts') {
+            return latestPromptIds.includes(prompt.id) && matchesSearch;
+        }
+
+        return prompt.category === activeCategory && matchesSearch;
     });
 
     displayPrompts(filtered);
