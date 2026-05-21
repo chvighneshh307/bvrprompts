@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - BVR Prompts</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-fontawesome/6.4.0/css/all.min.css">
+</head>
+<body class="about-page">
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-top">
+                <div class="logo-section">
+                    <a href="index.html" class="logo-circle">
+                        <img src="Gemini_Generated_Image_cge85tcge85tcge8.png" alt="BVR - Home">
+                    </a>
+                    <div class="brand">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        <span>BVR Prompts</span>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-bottom">
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="Prompts.html" class="nav-link">Prompts</a></li>
+                    <li><a href="About.html" class="nav-link active">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <h1>About BVR Prompts</h1>
+    </header>
+
+    <main>
+        <section class="about-image">
+            <article class="image-card">
+                <img src="https://picsum.photos/seed/neutral/900/420" alt="Neutral abstract illustration" />
+            </article>
+        </section>
+        <section class="about-section">
+            <div class="about-card">
+                <h2>Who we are</h2>
+                <p>BVR Prompts is a creative prompt library designed to help artists, writers, and creators build better AI-generated imagery and scenes. We provide curated prompts across categories like cyberpunk, fantasy, photography, and anime.</p>
+            </div>
+            <div class="about-card">
+                <h2>What we do</h2>
+                <p>Our platform makes it easy to discover inspiring prompts, copy them instantly, and explore visual ideas. You can browse categories, search for keywords, and get prompt suggestions for your next project.</p>
+            </div>
+            <div class="about-card">
+                <h2>Our mission</h2>
+                <p>We want to empower creators with high quality AI prompt ideas that spark imagination, improve workflow, and speed up the creative process.</p>
+            </div>
+        </section>
+        <div class="profile-container" aria-label="Profile image">
+            <img src="vighnesh 1.jpeg" alt="Profile avatar" class="profile-img">
+        </div>
+    </main>
+
+    <!-- Notification Toast -->
+    <div id="toast" class="toast">Prompt copied to clipboard!</div>
+
+    <footer>
+        <p>&copy; 2045 AI Edit. Powered by Ch. vighnesh.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

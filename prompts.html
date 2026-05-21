@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BVR Prompt // Best AI Image Prompts</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-fontawesome/6.4.0/css/all.min.css">
+</head>
+<body class="prompts-page">
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-top">
+                <div class="logo-section">
+                    <a href="index.html" class="logo-circle">
+                        <img src="Gemini_Generated_Image_cge85tcge85tcge8.png" alt="BVR - Home">
+                    </a>
+                    <div class="brand">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        <span>BVR Prompts</span>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-bottom">
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="#prompts" class="nav-link active">Prompts</a></li>
+                    <li><a href="Service.html" class="nav-link">Service</a></li>
+                    <li><a href="About.html" class="nav-link">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<header>
+        <h1>Discover, copy, and generate the best prompts.</h1>
+    </header>
+
+    <!-- Controls Section -->
+    <main>
+        <div class="controls">
+            <div class="search-bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" id="searchInput" placeholder="Search prompts (e.g., cyberpunk, anime)...">
+            </div>
+            <button id="randomBtn" class="btn-primary">
+                <i class="fa-solid fa-shuffle"></i> Surprise Me
+            </button>
+        </div>
+
+        <!-- Category Filters -->
+        <div class="categories" id="categoryFilters">
+            <button class="cat-btn active" data-category="all">All</button>
+            <button class="cat-btn" data-category="cyberpunk">Cyberpunk</button>
+            <button class="cat-btn" data-category="fantasy">Fantasy</button>
+            <button class="cat-btn" data-category="photography">Photography</button>
+            <button class="cat-btn" data-category="anime">Anime</button>
+        </div>
+
+        <!-- Prompts Grid -->
+        <div class="prompt-grid" id="promptGrid">
+            <!-- Dynamic prompts will be injected here by JavaScript -->
+        </div>
+        <div class="profile-container" aria-label="Profile image">
+            <img src="vighnesh 1.jpeg" alt="Profile avatar" class="profile-img">
+        </div>
+    </main>
+
+    <!-- Notification Toast -->
+    <div id="toast" class="toast">Prompt copied to clipboard!</div>
+
+    <footer>
+        <p>&copy; 2045 AI Edit. Powered Ch.vighnesh. |
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
