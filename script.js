@@ -1,6 +1,12 @@
 // Sample Database of Prompts
 const promptsDataset = [
     {
+        id: 18,
+        category: "long shiva god",
+        text: "Transform this pic into a dark, cinematic fantasy scene. Keep the person exactly the same face, natural skin texture, expression, pose, and clothing. Behind the person, add a shadowy, smoke-like Lord Shiva figure. Shiva should appear divine, powerful, masculine, with broad shoulders and a calm, protective presence. His one hand is placed very softly and gently on the model's head, like he is giving a blessing. Atmosphere: Soft mystical lighting, cinematic color grading, sacred and devotional mood.",
+        image: "Images/shiva sahasra .jpeg"
+    },
+    {
         id: 17,
         category: "High-End Studio Fashion Editorial",
         text: "A stylish young man 100% face hair and body match from uploaded image wearing a modern white sweater and black jeans with white trendy sneakers standing confidently with hands in pockets one leg crossed over the others, studio portrait with soft lighting, elegant dark background, cinematic look professional photo editing a large faded background portrait of the same person in black sunglasses behind him luxury fashion style premium magazine photoshoot vibe Same face as the uploaded image And add a metallic text in",
