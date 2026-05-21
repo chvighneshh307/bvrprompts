@@ -1,8 +1,26 @@
 // Sample Database of Prompts
 const promptsDataset = [
     {
+        id: 21,
+        category: "lorg krishna god",
+        text: "Create a highly detailed, hyper-realistic devotional image of Lord Krishna in a cosmic background walking side by side with a modern man in a suit Krishna should have blue skin, golden-yellow dhoti adorned with peacock feathers and traditional jewelry, holding a flute with a glowing divine aura. The cosmic background should have nebulae stars, and spiritual light Both figures are walking together in a peaceful spiritual atmosphere, holding hands with soft lighting and an emotional inspirational tone nebulae, and divine light with a mystical glow symbolizing the spiritual journey and divine connection. The scene is highly detailed, hyper-realistic with soft lighting glowing aura around Krishna, and a deep emotional tone.",
+        image: "Images/krishna sahasra.jpeg"
+    },
+    {
+        id: 20,
+        category: "lorg hunaman god",
+        text:  "A hyper-realistic, cinematic portrait of the Hindu deity Lord Hanuman, depicted with divine grace and a gentle expression. He is placing a protective hand on the head of a young Indian girl who has her eyes closed in peaceful devotion. The scene is bathed in a warm, ethereal golden glow with shimmering particles. Hanuman is adorned in intricate golden jewelry, a royal crown, and vibrant flower garlands. The background shows the soft-focus texture of an ancient temple wall. 8k resolution, spiritual atmosphere, masterpiece",
+        image: "Images/hunaman sahasra.jpeg"
+    },
+    {
+        id: 19,
+        category: "lorg venkateshwara god",
+        text: "Merge the two uploaded images - one of the Boy and one of Lord Venkateshwara-into a single artistic composition where it appears that Lord Venkateshwara is lovingly giving blessings to the Boy. The scene should feel divine, peaceful dreamy and blessed. The Boy should look happy calm, and introspective, with a gentle smile, eyes closed, wearing a Pinterest-style brown Shirt with a soft vintage effect Lord Venkateshwara should appear serene and compassionate, smiling softly, radiating warmth and blessings, with his hand placed above him head in a blessing gesture. Use a retro, vintage, slightly grainy yet bright Pinterest aesthetic Lighting should be warm golden tones, like sunset/golden hour glow, with deep shadows and cinematic contrast. The background should be minimal softly textured, and artistic creating a mystical and spiritual atmosphere. Maintain natural facial features, realistic proportions, and smooth blending between both images.",
+        image: "Images/venkateshwara sahasra.jpeg"
+    },
+    {
         id: 18,
-        category: "long shiva god",
+        category: "lorg shiva god",
         text: "Transform this pic into a dark, cinematic fantasy scene. Keep the person exactly the same face, natural skin texture, expression, pose, and clothing. Behind the person, add a shadowy, smoke-like Lord Shiva figure. Shiva should appear divine, powerful, masculine, with broad shoulders and a calm, protective presence. His one hand is placed very softly and gently on the model's head, like he is giving a blessing. Atmosphere: Soft mystical lighting, cinematic color grading, sacred and devotional mood.",
         image: "Images/shiva sahasra .jpeg"
     },
